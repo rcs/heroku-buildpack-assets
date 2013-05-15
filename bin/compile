@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "-----> Running bin/assets"
+$1/bin/assets

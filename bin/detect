@@ -1,0 +1,7 @@
+# this pack is valid for apps with a bin/assets script
+if [ -f $1/bin/assets ]; then
+  echo "Assets Buildpack"
+  exit 0
+else
+  exit 1
+fi
