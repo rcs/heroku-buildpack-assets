@@ -1,3 +1,5 @@
 #!/bin/sh
 echo "-----> Running bin/assets"
-$1/bin/assets
+# Switch to app context
+cd $1
+bin/assets
